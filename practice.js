@@ -28,3 +28,42 @@
 //  var num1 =119;
 //  var num2 =4 ;
 //   console.log(num1 % num2);
+   
+//         problems : banana index ber kora
+//    var fruits =['apple','orange','banana'];
+
+//     console.log( fruits.indexOf ('banana'))
+
+//  problems : remove banana ad watermelon 
+
+//                 var fruits =['apple','orange','banana'];
+//                 var extra = fruits.pop();
+//                 var extra1 = fruits.push('watermelon')
+//                 console.log(extra1)
+
+ //                problem 5   it will be the mark grading system  
+
+        //  var marks = 65 ;
+
+        //   if (80<=marks){
+
+        //     console.log('A grade')
+        //   }
+        //   else if(60<=marks){
+
+        //     console.log('B grade')
+        //   }
+        //   else if( 50<=marks) {
+
+        //         console.log('C grade')
+
+        //   }
+        //   else if (40<=marks) {
+
+        //     console.log('D grade')
+        //   }
+        //   else if (39>=marks){
+        //     console.log('F grade')
+
+
+        //   }
