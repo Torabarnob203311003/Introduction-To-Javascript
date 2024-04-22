@@ -10,7 +10,7 @@
 
     var elements =['bottle','pen','tank','kaman','bonduuk']
 
-    for(var i = 0 ; i< elements.lenght; i++){
+    for ( var i = 0 ; i < elements.length; i++){
 
     var element =  elements[i]
     console.log(element);
