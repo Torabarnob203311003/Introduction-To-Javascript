@@ -7,8 +7,15 @@
 //   condition inside the loop
 //    loop body
 
+
+
+
+    //  simple version of for loop 
   for( var i= 0 ;  i < 7 ; i++ ){
 
              console.log( i)
 
   }
+
+
+   
