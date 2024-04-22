@@ -2,6 +2,11 @@
 //     console.log('khida lgse reee');
 // }
 
+
+//  loop  variable 
+//   condition inside the loop
+//    loop body
+
   for( var i= 0 ;  i < 7 ; i++ ){
 
              console.log( i)
