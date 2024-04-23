@@ -53,7 +53,7 @@
             Diaplay them as Output ?
             7.Creat an array from all the mobile phones u used ? display all the elemnts of the array by using a while loop
             8.Run a loop from 30 to 86 , tjis eill stop if the value is get higher than 44?
-            9.Write the price of the books that ou have ,  Display the p[rices if th peices is lower than 200? 0
+            9.Write the price of the books that ou have ,  Display the p[rices if th peices is lower than 200? 
                 
                 
                 
