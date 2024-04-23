@@ -40,4 +40,21 @@
             3.meaning of ||
             4.lets say u have x amount of money< you u have more than u have  8k then u eil by mac book , if u have more than 90k u will by gaming laptop, if u have 20k then u will by lenovo laptop if u have more than 20k then u will buys ue dlaptop, othwr wise u will use ur mobile phone ?
             
-*/
+
+            -------Looop--------
+            __________________\
+
+            1.Display "ajker amar mon valo nei" for 39 times?
+            2.Display numbers beetween 58 to 98?
+            3.Show all even numbers from 412 to456?
+            4. show all odd numbers from 581 to623 ?
+            5. deff between while loop and froo loop?
+            6. Declare an array for all the topic that you have leanr last u learn ?
+            Diaplay them as Output ?
+            7.Creat an array from all the mobile phones u used ? display all the elemnts of the array by using a while loop
+            8.Run a loop from 30 to 86 , tjis eill stop if the value is get higher than 44?
+            9.Write the price of the books that ou have ,  Display the p[rices if th peices is lower than 200? 0
+                
+                
+                
+    */
