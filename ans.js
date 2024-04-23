@@ -129,3 +129,246 @@
 
 
                                _______Variable  End _____
+
+
+
+
+                               #### Array start #####
+
+          1.What is the purpose of array?
+           Ans :An array is a collection of items of same data type stored at contiguous memory locations.
+
+            For simplicity, we can think of an array as a flight of stairs where on each step is placed a value (let’s say one of your friends). Here, you can identify the location of any of your friends by simply knowing the count of the step they are on.
+
+             2.How to declare an array in js ?
+              Ans : example :  Var number = [25,65,45,78,99,69] ;
+               example 2 : Var cars = [
+                                    "Saab",
+                                    "Volvo",
+                                    "BMW"
+                                    ];
+
+                  3. Number of elements in an array?
+                   Ans : var myArray = [99, 101.5, "John Doe", true, { age: 44 }];
+                          var total = myArray.length;
+                        console.log(total);
+
+            4.What is index?
+             ans : js array are zero indexed . first elemnt of an array is at zero index , thn next one in 1 index and so on.....
+
+             example : var  fruits = ['mango','apple', 'orange']; here mango index =0 , apple = 1 and orange index =2 ;
+
+             5.Find the  value of an element by index?
+              ans : var imageList = [100,200,300,400,500];
+                var index = imageList.indexOf(200); 
+                 by index of we can find perticular index or array elements .
+
+                      6.Change and elemnt by index?
+                      ans : var numbers =[25,45,84,97,95,65,22,45,65];
+
+                    to get element value by index 
+                    var element = numbers[0];
+
+                     to add element value by index 
+                        numbers[5] = 69; 
+
+                         get index number by  the value using  ".index off" 
+                        var positionIndex = numbers.indexOf(69);
+                    console.log(positionIndex);
+
+                    7.Get the index of an elemnt by the value?
+                     ans :   get index number by  the value using  ".index off" 
+                        var positionIndex = numbers.indexOf(69);
+                    
+
+                 8.What does it mean when you get undefined  while geting the value of an element ?
+                  ans : 
+                            Getting "undefined" typically happens in languages like JavaScript when you try to access a property or element that doesn't exist. It means the variable you are trying to access has not been defined or initialized, or the property or element you are trying to access does not exist in the object or array.
+                            example :var myArray = [1, 2, 3];
+
+                            console.log(myArray[5]); // Output will be "undefined" because there is no element at index 5
+
+
+                             9. How can you add  an elemnt to an array at the last position?
+                                    ans : we have to use push
+                                     var myArray = [1, 2, 3];
+                                    myArray.push(4);
+                                    console.log(myArray); // Output will be [1, 2, 3, 4]
+
+
+                                     10.How can you remove an elemnt an aray?
+                                     ans : we have to use pop
+                                         var myArray = [1, 2, 3];
+                                    myArray.pop(4);
+                                    console.log(myArray); // Output will be [1, 2, 3, 4]
+
+
+                                     11.How can you add   an element of the fast postion of ann array ?
+                                      ans : by using unshift
+                                             var myArray = [1, 2, 3];
+                                    myArray.unshift(4);
+                                    console.log(myArray); // Output will be [1, 2, 3, 4]
+
+                                       12.remobve the firrst elemnt of an array?
+                                       ans : by using shift
+                                       example :       var myArray = [1, 2, 3];
+                                                    myArray.shift(4);
+                                                    console.log(myArray); // Output will be [1, 2, 3, 4]
+
+
+
+                                        ### array end ######
+
+
+
+
+                        ### Conditon start ###
+
+                                1.Meaning of :>, < ,<=,>= !=,===,!===;
+                                 ans :1. > : Greater than. It checks if the value on the left side is greater than the value on the right side.Example: 5 > 3 evaluates to true.
+                                    < : Less than. It checks if the value on the left side is less than the value on the right side.Example: 3 < 5 evaluates to true.
+                                    <= : Less than or equal to. It checks if the value on the left side is less than or equal to the value on the right side.Example: 3 <= 3 evaluates to true.
+                                    >= : Greater than or equal to. It checks if the value on the left side is greater than or equal to the value on the right side.Example: 5 >= 5 evaluates to true.
+                                    != : Not equal to. It checks if the value on the left side is not equal to the value on the right side.Example: 5 != 3 evaluates to true.
+                                    === : Strict equality. It checks if the value on the left side is equal to the value on the right side, and both the value and the type must be the same.Example: 5 === "5" evaluates to false because they are not of the same type.
+                                    !== : Strict inequality. It checks if the value on the left side is not equal to the value on the right side, or if they are not of the same type.Example: 5 !== "5" evaluates to true because they are not of the same type.
+
+
+
+                         2.meaning of &&
+                          ans :In JavaScript, && is the logical AND operator. It's used to combine two boolean expressions, and it returns true if both expressions are true; otherwise, it returns false.
+
+                          example :var x = 5;
+                                    var y = 10;
+
+                                    if (x < 10 && y > 5) {
+                                        console.log("Both conditions are true");
+                                    } else {
+                                        console.log("At least one condition is false");
+                                    }
+                                    
+
+                                 3.meaning of ||
+                                  ans : or operation
+
+
+
+                      4.lets say u have x amount of money< you u have more than u have  8k then u eil by mac book , if u have more than 90k u will by gaming laptop, if u have 20k then u will by lenovo laptop if u have more than 20k then u will buys ue dlaptop, othwr wise u will use ur mobile phone ?
+
+                      ans :   var totalAmount = 10000 ;
+                             if ( totalAmount >= 8000){
+                                console.log("youwill buy a mcabook");
+                             } 
+                             else if (totalAmount >=90000){
+
+                                console.log ("you wil bus a gimg laptop");
+                             }
+                             else if (totalAmount >=20000){
+
+                                console.log ("you will buy s lenovo laptop");
+                             }
+                             else {
+
+                                console.log ("use your mobile phone");
+                             }
+
+
+                             ### Conditon end ###
+
+
+                            ### loop start ###
+
+
+                             1.Display "ajker amar mon valo nei" for 39 times?
+                             
+                             ans :
+                                
+                             for( var i =40 ; i<=39 ; i++){
+
+                                console .log("ajke amar mon valo nai");
+                             }
+
+
+                              2.Display numbers beetween 58 to 98?
+                               ans :         for (var i = 58; i <= 98; i++) {
+                                                                console.log(i);
+                                                            }
+                            
+                        3.Show all even numbers from 412 to456?
+
+                         ans :   for (var i = 412; i <= 456; i++) {
+                                    if (i % 2 === 0) {
+                                        console.log(i);
+                                    }
+                                }
+
+                        4. show all odd numbers from 581 to623 ?
+                        ans : for (var i = 581; i <= 623; i++) {
+                                    if (i % 2 !== 0) {
+                                        console.log(i);
+                                    }
+                                }
+
+                              5. deff between while loop and froo loop?
+                               ans :While Loop:
+                                        A while loop repeatedly executes a block of code as long as a specified condition is true.
+                                        It consists of a condition followed by the code block to be executed.
+                                        The condition is evaluated before executing the code block. If the condition is true, the code block is executed. If the condition is false, the code block is skipped, and the program continues with the next statement after the while loop.
+
+                                        example : var x = 0;
+                                            while (x < 5) {
+                                                console.log(x);
+                                                x++;
+                                            }
+
+                                    For Loop:
+                                    A for loop repeats a block of code a specified number of times.
+                                    It consists of three parts: initialization, condition, and increment/decrement.
+                                    The initialization part is executed once at the beginning of the loop.
+                                    The condition is evaluated before each iteration. If it's true, the code block is executed; if it's false, the loop terminates.
+                                    After each iteration, the increment/decrement part is executed.
+
+                                    example :  for (var i = 0; i < 5; i++) {
+                                                    console.log(i);
+                                                }
+
+
+                                 7.Creat an array from all the mobile phones u used ? display all the elemnts of the array by using a while loop
+
+                                 ans :  var mobilePhones = ["iPhone", "Samsung Galaxy", "Google Pixel"];
+                                        var i = 0;
+
+                                        while (i < mobilePhones.length) {
+                                            console.log(mobilePhones[i]);
+                                            i++;
+                                        }
+
+
+                                         8.Run a loop from 30 to 86 , tjis eill stop if the value is get higher than 44?
+                                          ans :   for (var i =30 ; i<86 ; i++)
+                                          {
+
+                                            console.log(i);
+                                            if(i>=44)
+                                            break;
+                                          }
+
+
+
+                                 9.Write the price of the books that ou have ,  Display the p[rices if th peices is lower than 200?
+                                    ans :  var bookPrices = [150, 220, 180, 190, 250];
+
+for (var i = 0; i < bookPrices.length; i++) {
+    if (bookPrices[i] < 200) {
+        console.log(bookPrices[i]);
+    }
+}
+
+
+
+   ### loop end  ###
+
+
+                                                    
+
+
