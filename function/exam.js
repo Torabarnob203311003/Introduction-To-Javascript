@@ -42,3 +42,17 @@
 // var average = make_avrg(array, size);
 // console.log("Average:", average);
 
+
+
+//  ######## write a function called foo which prints foo and a functio named bar which prints bar. call function bar in the foo function after prinitng . what will be tghe output? now call the foo see the ouput
+// function foo() {
+//     console.log("foo");
+//     bar();
+// }
+
+// function bar() {
+//     console.log("bar");
+// }
+
+// // Calling foo will print "foo" and then call bar, which will print "bar"
+// foo();
