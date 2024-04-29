@@ -1,7 +1,7 @@
   function isleapYear (year){
 
         const remainder = year% 4;
-        if( remainder == 0 ) {
+        if( remainder === 0 ) {
 
             console.log('yor year is a leap year');
 
@@ -13,6 +13,12 @@
         }
 
   }
-const allyears = [2025,2024,4568];
- allyears =isleapYear (years) ;
-  isleapYear( allyears);
+
+     var input = [2024,2560,2023];
+     for (var i = 0; i < input.length; i++) {
+         const year = input[i];
+         isleapYear(year);
+     }
+  isleapYear( 2024);
+
+//    sloved 

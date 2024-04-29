@@ -1,15 +1,14 @@
-  function isLeapYear (year) {
-    const remainder = year % 4;
-    if (remainder === 0) {
-      console.log(`Your year, , is a leap year.`);
-    } else {
-      console.log(`Your year, , is not a leap year.`);
+ function getSumArray(numbers) {
+
+     var sum = 0;
+    for( var i =0 ; i <numbers.length ; i++) {
+        var index = i;
+        var element = numbers[index];
+
+          sum = sum+element;
+        console.log(index, element,sum2);
     }
-  }
+}
 
-  const years = [2025, 1960, 2024, 4568];
-  years = isLeapYear();
-  allyears.forEach(year => isLeapYear(year));
-
-
-//  did not solve 
+var array = [12, 25, 78, 88];
+getSumArray(array);
