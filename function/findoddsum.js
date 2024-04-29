@@ -6,7 +6,7 @@
         var element = numbers[index];
 
           sum = sum+element;
-        console.log(index, element,sum);
+        console.log(index, element,sum2);
     }
 }
 
