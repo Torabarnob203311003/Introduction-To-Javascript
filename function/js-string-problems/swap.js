@@ -3,9 +3,15 @@ let first = 5 ;
   
   console.log (first,sec);
   
-  const temp = first;
-  first = sec;
-  sec = temp;
+// apporach 1
+//    const temp = first;
+//   first = sec;
+//   sec = temp;
+
+
+
+// apporach 2
+[first,sec] =[sec,first];
   
   console.log (first,sec);
 
