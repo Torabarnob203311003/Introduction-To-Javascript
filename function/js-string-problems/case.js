@@ -26,4 +26,4 @@
   };
 
 
-//    this things uses for pass sennstivety and secure perpuses  
+//    this things uses for pass sennstivety and secure perpuses   
