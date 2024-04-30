@@ -1,6 +1,6 @@
 // we can find  some thing in string by includes and index of 
 
- const lyrics = ' tumi Bondhu kala pakhi a i jno ki';
+ const lyrics = ' tumi Bondhu kala pakhi a i jno ki. ami jeno kii.';
   const  doesExsits = 'Bondhu';
   const lyricsLowercase = lyrics.toLowerCase()
 
