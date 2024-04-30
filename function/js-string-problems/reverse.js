@@ -23,7 +23,7 @@
 
   function getreverse(text){
 
-for(let i = text.length; i >= 0; i--){
+for(let i = text.length -1 ; i >= 0; i--){
 
         const elements = text [i];
         console.log (elements);
