@@ -98,3 +98,24 @@
 //    console.log('total fare of public buses :', totalcost);
 
 
+// Problem 5: IsBestFriend
+
+
+
+// তোমাকে একটি ফাংশন লিখতে হবে IsBestFriend যেটি প্যরামিটার হিসেবে দুইটি অবজেক্ট নিবে । তোমাকে অবজেক্ট দুইটি নিয়ে দেখতে হবে এরা দুইজন একে অপরের বেস্টফ্রেন্ড কিনা । যদি বেস্ট ফ্রেন্ড হয় তাহলে True রিটার্ন করবে , না হলে False রিটার্ন করবে ।
+
+
+// function IsBestFriend(name1, name2) {
+//     if ((name1.friend === name2.name && name2.friend === name1.name) ||
+//         (name1.name === name2.friend && name2.name === name1.friend)) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+
+// const namebuddies1 = {name: 'abudl', friend: 'babul'};
+// const namebuddies2 = {name: 'babul', friend: 'abudl'};
+
+// const buddies = IsBestFriend(namebuddies1, namebuddies2);
+// console.log(buddies); 
