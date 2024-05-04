@@ -14,7 +14,7 @@
 //     get elementsByclassname
 
 //    option 4 :
-//     get elemntsBySelector
+//     get elemntsByquerySelector
 
 //    option 5 :
-//     get elementsBySelectorAll
+//     get elementsByQuerySelectorAll
