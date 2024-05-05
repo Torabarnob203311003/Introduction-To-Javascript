@@ -1,21 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comment-Box</title>
 </head>
+
 <body>
 
-     <h1>Write Your Comment Here....</h1>
-     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi delectus impedit architecto quisquam veniam. Voluptas, necessitatibus praesentium maiores quas aliquid magni molestias a debitis vel sint magnam placeat tenetur reiciendis.</p>
+    <h1>Write Your Comment Here....</h1>
+    <div id="comment-container">
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi delectus impedit architecto quisquam veniam.
+            Voluptas,
+            necessitatibus praesentium maiores quas aliquid magni molestias a debitis vel sint magnam placeat tenetur
+            reiciendis.</p>
 
 
-     <p>Quisquam aperiam modi ut voluptates id perferendis? Vel placeat sequi, maxime quis mollitia sit accusantium voluptate nam dolorum laboriosam tenetur nihil reiciendis optio ratione voluptatibus, ad accusamus, harum molestias culpa!</p>
+        <p>Quisquam aperiam modi ut voluptates id perferendis? Vel placeat sequi, maxime quis mollitia sit accusantium
+            voluptate
+            nam dolorum laboriosam tenetur nihil reiciendis optio ratione voluptatibus, ad accusamus, harum molestias
+            culpa!</p>
 
-     
-     <p>Dicta id hic error. Quia possimus in necessitatibus? Obcaecati unde rem distinctio culpa porro quibusdam, nam quod. Illum modi libero consequatur blanditiis voluptatum dignissimos esse atque itaque, dolorem quam maxime.</p>
-    
+        <p>Dicta id hic error. Quia possimus in necessitatibus? Obcaecati unde rem distinctio culpa porro quibusdam, nam
+            quod.
+            Illum modi libero consequatur blanditiis voluptatum dignissimos esse atque itaque, dolorem quam maxime.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <textarea name="" id="new-comment" cols="60" rows="10" style="background-color: lightcyan;"></textarea>
+    <br>
+    <br>
+    <button id="button-post" style="color:red; background-color: black ; padding:8px;">Post</button>
+
+
+
+
+
+
+
+    <script>
+        // 1. add event in post button
+        document.getElementById('button-post').addEventListener('click', function () {
+
+            // 2. get the comment box
+            const commentbox = document.getElementById('new-comment')
+            const newcomment = commentbox.value;
+
+            // 3. get the container to comment 
+            const container = document.getElementById('comment-container')
+            const p = document.createElement('p');
+            p.innerText = newcomment;
+             container.appendChild(p);
+            commentbox.value = '';
+        })
+
+
+    </script>
 </body>
+
 </html>
