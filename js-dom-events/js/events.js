@@ -23,3 +23,13 @@
    }
     
 
+    // option 4 
+
+     const pinkbutton =  document.getElementById('make-pink') 
+     pinkbutton.addEventListener('click',makepink)
+
+     function makepink(){
+
+      document.body.style.backgroundColor='pink'
+     }
+
