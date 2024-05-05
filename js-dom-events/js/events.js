@@ -33,3 +33,11 @@
       document.body.style.backgroundColor='pink'
      }
 
+     //option 5
+
+       const makeButtongreen = document.getElementById('make-green')
+       makeButtongreen.addEventListener('click',function buttongreen(){
+        document.body.style.backgroundColor='green'
+
+       })
+
