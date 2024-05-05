@@ -33,7 +33,7 @@
       document.body.style.backgroundColor='pink'
      }
 
-     //option 5
+     //option 4 another
 
        const makeButtongreen = document.getElementById('make-green')
        makeButtongreen.addEventListener('click',function buttongreen(){
@@ -41,3 +41,9 @@
 
        })
 
+       //option 4 final
+       
+       const makeblue = document.getElementById('make-blue').addEventListener('click', function (){
+
+        document.body.style.backgroundColor='blue';
+       })
