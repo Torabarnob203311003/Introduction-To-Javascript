@@ -9,9 +9,21 @@
 <body>
 
      <h1>This is event summary</h1>
+
+     <p id="para">!!!!!!!..................</p>
+ <input id="input" type="text">
+
+<button id="btn-update"> Update</button>
+  <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
      <h3 id="handler">this is a default massge</h3>
 
-     <button onclick="handelbutton()">this is  an  event handler</button>
+     <button onclick="handelbutton()">this is  an  event handler by one click function</button>
+     <button id="eventlistener">this is  an  event handler by event handle function</button>
 
 
     <script>
@@ -20,6 +32,30 @@
                 const handeler = document.getElementById('handler');
                  handeler.innerText ='This is controled by the handle button function';
             }
+
+            // option 2 
+
+             const handlerEvent = document.getElementById('eventlistener').addEventListener('click',function (){
+
+                    const handlerStatus = document.getElementById('handler');
+                     handlerStatus.innerText ='This is controled by the event listener function';
+
+             })
+
+
+                   // option 2  recap
+
+                    document.getElementById('btn-update').addEventListener('click',function (){
+
+                         const inPut = document.getElementById('input')
+                           const inPutText    = input.value; 
+
+                            const p = document.getElementById('para')
+                            p.innerText =inPutText;
+                            inPut.value ='';
+                    })
+
+
 
     </script>
 </body>
