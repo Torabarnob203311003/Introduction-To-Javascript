@@ -19,6 +19,7 @@ for(const friend of frnd){
 
    const frndcontainer = document.getElementById('friends')
  const friend = document.createElement('div');
+ friend.classList.add('friends');
  friend.innerHTML = `<h3>hi i am new friend </h3>
  <p> what is your name</p> `
   frndcontainer.appendChild(friend)
