@@ -23,3 +23,25 @@
 //  const  number = (frist,sec=2 ) =>{ return frist+sec } 
 //   console.log( number(10))
 //   console.log( number(10,5))
+
+//  question no 4 
+
+//  write an arrow function  where it will do the following 
+
+//   a) it will take   an array  where the array elements will be the name of your friewnds
+//    b) hcek if the length of each element is event, push elements with even length to a  new array and retrun the rsulat print the result
+
+const filterEvenLengthNames = (friends) => {
+    const evenLengthNames = [];
+    friends.forEach(name => {
+        if (name.length % 2 === 0) {
+            evenLengthNames.push(name);
+        }
+    });
+    return evenLengthNames;
+};
+
+// Example usage:
+const friends = ['Alice', 'Bob', 'Charlie', 'David', 'Emily'];
+const evenLengthFriends = filterEvenLengthNames(friends);
+console.log(evenLengthFriends);
