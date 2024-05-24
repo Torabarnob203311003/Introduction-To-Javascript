@@ -1,7 +1,7 @@
 //8 reason to get undefined
 
 //Variable Declaration Without Initialization:
- let x;
+ let x ;
 console.log(x); // undefined
 
 // Function Without a Return Statement:
